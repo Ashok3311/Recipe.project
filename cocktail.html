@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cocktail Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b4a4a9;
+            margin: 0;
+            padding: 0;
+        }
+        .recipe {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0dcdc;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        .recipe h1 {
+            color: #e79879;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #c5dadc;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #c9d8da;
+        }
+        .cocktail-img-container {
+            text-align: center;
+            position: relative;
+        }
+        .cocktail-img {
+            width: 300px;
+            height: 350px;
+            border-radius: 50px;
+            animation: pulse 2s ease infinite;
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="recipe">
+        <h1>Cocktail Recipe</h1>
+        <div class="cocktail-img-container">
+            <img src="recipepage/energy-cocktail.avif" alt="Refreshing Cocktail" class="cocktail-img">
+        </div>
+        <p>This is a refreshing cocktail recipe.</p>
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>2 oz vodka</li>
+            <li>1 oz triple sec</li>
+            <li>1 oz cranberry juice</li>
+            <li>1 oz lime juice</li>
+            <li>Ice cubes</li>
+            <li>Lime wheel for garnish</li>
+        </ul>
+        <h2>Instructions:</h2>
+        <ol>
+            <li>Fill a shaker with vodka, triple sec, cranberry juice, and lime juice.</li>
+            <li>Add ice cubes to the shaker.</li>
+            <li>Shake well until chilled.</li>
+            <li>Strain the cocktail into a chilled martini glass.</li>
+            <li>Garnish with a lime wheel.</li>
+            <li>Serve and enjoy!</li>
+        </ol>
+        <p>Enjoy your refreshing cocktail!</p>
+        <a href="cocktail.html" class="btn">View Full Recipe</a>
+    </div>
+</body>
+</html>
+
+
+
+

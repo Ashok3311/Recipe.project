@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cake Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b5b0af;
+            margin: 0;
+            padding: 0;
+        }
+        .recipe {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #918484;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        .recipe h1 {
+            color: #d4cece;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #bd9f9f;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #de7171;
+        }
+        .cake-img-container {
+            text-align: center;
+            position: relative;
+        }
+        .cake-img {
+            width: 350px;
+            height: 400px;
+            border-radius: 50px;
+            animation: pulse 2s ease infinite;
+        }
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div class="recipe">
+        <h1>Cake Recipe</h1>
+        <div class="cake-img-container">
+            <img src="recipepage/homemade-cake-holiday.avif" alt="Delicious Cake" class="cake-img">
+        </div>
+        <p>This is a delectable homemade cake recipe.</p>
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>2 cups all-purpose flour</li>
+            <li>1 1/2 cups granulated sugar</li>
+            <li>1 cup unsalted butter, softened</li>
+            <li>4 large eggs</li>
+            <li>1 cup milk</li>
+            <li>2 teaspoons vanilla extract</li>
+            <li>2 teaspoons baking powder</li>
+            <li>1/2 teaspoon salt</li>
+        </ul>
+        <h2>Instructions:</h2>
+        <ol>
+            <li>Preheat your oven to 350°F (175°C).</li>
+            <li>Grease and flour two 9-inch round cake pans.</li>
+            <li>In a mixing bowl, cream together the softened butter and sugar until light and fluffy.</li>
+            <li>Beat in the eggs one at a time, then stir in the vanilla extract.</li>
+            <li>Combine the flour, baking powder, and salt; gradually add this mixture to the wet ingredients while alternating with the milk.</li>
+            <li>Divide the batter evenly between the prepared pans.</li>
+            <li>Bake for 30 to 40 minutes in the preheated oven or until a toothpick inserted into the center comes out clean.</li>
+            <li>Allow the cakes to cool in the pans for 10 minutes before removing them from the pans to cool completely on a wire rack.</li>
+        </ol>
+        <p>Enjoy your homemade cake!</p>
+        <a href="cake.html" class="btn">View Full Recipe</a>
+    </div>
+</body>
+</html>

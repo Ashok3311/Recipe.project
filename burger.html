@@ -1,0 +1,86 @@
+/<!DOCTYPE html>
+<html>
+<head>
+    <title>Burger Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8d0d0;
+            margin: 0;
+            padding: 0;
+        }
+        .recipe {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #bdb7b6;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        .recipe h1 {
+            color: #f2edeb;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #FF5733;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #FF4500;
+        }
+        .burger-img-container {
+            text-align: center;
+            position: relative;
+        }
+        .burger-img {
+            width: 400px;
+            height: 300px;
+            border-radius: 50px;
+            animation: pulse 2s infinite alternate;
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1.05);
+            }
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="recipe">
+        <h1>Burger Recipe</h1>
+        <div class="burger-img-container">
+            <img src="recipepage/exploding-burger.avif" alt="Delicious Burger" class="burger-img">
+        </div>
+        <p>This is a mouthwatering homemade burger recipe.</p>
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>1 beef patty</li>
+            <li>1 burger bun</li>
+            <li>Lettuce</li>
+            <li>Tomato slices</li>
+            <li>Onion slices</li>
+            <li>Cheese</li>
+            <li>Ketchup and mustard</li>
+        </ul>
+        <h2>Instructions:</h2>
+        <ol>
+            <li>Preheat your grill or stovetop pan.</li>
+            <li>Cook the beef patty to your desired doneness.</li>
+            <li>Toast the burger bun.</li>
+            <li>Assemble the burger with lettuce, tomato slices, onion slices, cheese, ketchup, and mustard.</li>
+            <li>Place the cooked patty on the bun.</li>
+            <li>Top with the other half of the bun.</li>
+            <li>Serve and enjoy!</li>
+        </ol>
+        <p>Enjoy your homemade burger!</p>
+        <a href="burger.html" class="btn">View Full Recipe</a>
+    </div>
+</body>
+</html>

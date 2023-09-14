@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ice Cream Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E0E0E0;
+            margin: 0;
+            padding: 0;
+        }
+        .recipe {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #e7d6d6;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+        }
+        .recipe h1 {
+            color: #FF6F61;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #FF6F61;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #FF4F40;
+        }
+        .ice-cream-img-container {
+            text-align: center;
+            position: relative;
+        }
+        .ice-cream-img {
+            width: 400px;
+            height: 300px;
+            border-radius: 50px;
+            animation: pulse 2s ease infinite;
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="recipe">
+        <h1>Ice Cream Recipe</h1>
+        <div class="ice-cream-img-container">
+            <img src="recipepage/ice.avif" alt="Delicious Ice Cream" class="ice-cream-img">
+        </div>
+        <div class="recipe-content">
+            <h2>Ingredients:</h2>
+            <ul>
+                <li>2 cups heavy cream</li>
+                <li>1 cup whole milk</li>
+                <li>3/4 cup granulated sugar</li>
+                <li>1 tablespoon vanilla extract</li>
+                <li>Flavorings (e.g., chocolate chips, fruit, nuts)</li>
+            </ul>
+            <h2>Instructions:</h2>
+            <ol>
+                <li>In a mixing bowl, combine heavy cream, milk, sugar, and vanilla extract. Stir until sugar is fully dissolved.</li>
+                <li>Pour the mixture into an ice cream maker and follow the manufacturer's instructions for churning.</li>
+                <li>Add your choice of flavorings during the last few minutes of churning.</li>
+                <li>Transfer the churned ice cream to a lidded container and freeze for several hours until firm.</li>
+                <li>Serve and enjoy!</li>
+            </ol>
+            <p>Enjoy your homemade ice cream!</p>
+        </div>
+        <a href="ice-cream.html" class="btn">View Full Recipe</a>
+    </div>
+</body>
+</html>
